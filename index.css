@@ -1,0 +1,155 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, arial, sans-serif;
+}
+
+body {
+  background-color: white;
+}
+
+.container {
+  width: 60%;
+  display:block;
+  margin: 0 auto;
+  }
+
+header{
+  margin-top: 1.5rem;
+  height: 500px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #333b44;
+  padding: 0.6rem 1rem;
+  align-items: center;
+}
+
+h1{
+  color:white;
+  font-size:small;
+  font-weight: lighter;
+}
+
+.button-alunos {
+  padding: 0.4rem;
+  background: none;
+  border: 2px solid cornflowerblue;
+  border-radius: 4px;
+  color: cornflowerblue;
+  font-size: small;
+  cursor: pointer;
+  transition: .5s ease;
+}
+
+.button-alunos:hover{
+  background-color: cornflowerblue;
+  color: #333b44;
+  transform: scale(1.08);
+}
+
+.button-alunos:active{
+  transform: scale(1);
+}
+
+.div-img {
+  height: 500px;
+  background-image: url(https://seaforth.burnabyschools.ca/wp-content/uploads/2020/06/Screenshot-of-Zoom-Meeting_May-19.png);
+  background-position: center;
+}
+
+.section-projects {
+  padding: 5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+.card-project {
+  width: 380px;
+  height: 240px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1.5rem;
+  border: 1px solid rgb(96, 190, 228);
+  border-radius: 5px;
+  -webkit-box-shadow: 1px -1px 4px 2px rgb(0 0 0 / 33%);
+  box-shadow: 6px -6px 10px 1px rgb(0 0 0 / 30%);
+  position: relative;
+  flex-direction: column;
+}
+
+.card-project-img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.card-title {
+  font-size: large;
+  padding: 0.8rem 1rem 0rem 0.8rem;
+}
+
+.card-text {
+  font-size: smaller;
+  padding: 0rem 0.8rem;
+}
+
+.footer {
+  display: flex;
+  margin: -1.5rem 0rem 2rem;
+  width: 100%;
+  height: 400px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url(https://blueedtech.com.br/wp-content/uploads/2021/11/react-1024x602.png);
+}
+
+.footer-inscreva-se {
+  color: white;
+  padding-top: 7rem;
+  font-size: 35px;
+
+}
+
+.footer-button{
+  margin-top: -4rem;
+  padding:0.7rem 1rem;
+  background: cornflowerblue;
+  border-radius: 4px;
+  color: white;
+  font-size: medium;
+  font-weight:normal;
+  border: none;
+  cursor: pointer;
+  transition: .5s ease;
+}
+
+.footer-button:hover{
+  transform: scale(1.2);
+}
+
+.footer-button:active{
+  margin-top: -3rem;
+}
+
+
+.footer-copyrygth {
+  color: gray;
+  background-color: #333b44 !important;
+  padding: 0.5rem 0rem;
+  width: 100%;
+  text-align: center;
+  font-size:smaller;
+}
+
+
+
